@@ -7,6 +7,7 @@
  * to see some errors here before building anything
  */
 import { defineCustomElements } from '../dist/loader';
+export * as Intl from '../dist/collection/genesys-spark-utils/intl';
 
 // Value templated out during build process (see scripts/wrap-stencil.js)
 export const COMPONENT_ASSETS_PATH = '{{component_assets_path}}';
